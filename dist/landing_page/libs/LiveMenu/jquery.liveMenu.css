@@ -1,0 +1,70 @@
+.liveMenu 
+{
+    position: absolute;
+}
+.liveMenu a
+{
+    position: relative;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    opacity: 0;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.liveMenu a .liveMenuImage
+{
+    vertical-align: middle;
+    -moz-transition-property: -moz-transform;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    -ms-transition-property: all;
+    transition-property: all;
+}
+.liveMenu a .liveMenuImage.active
+{
+    -moz-transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    -o-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+.liveMenu.layoutRect a
+{
+    margin: 0px;
+}
+.liveMenu.layoutCircle a
+{
+    position: absolute;
+}
+.liveMenu .liveMenuTooltip
+{
+    position: absolute;
+    z-index: 999;
+    font-family: Arial;
+    font-size: 12px;    
+    font-weight: bold;
+}
+.liveMenu .liveMenuTooltip .arrowL
+{
+    position: relative;
+    left: -16px;
+    border-style:solid;
+    border-width:8px;
+    width:0;
+    height:0;
+}
+.liveMenu .liveMenuTooltip .arrowR
+{
+    position: relative;
+    border-style:solid;
+    border-width:8px;
+    width:0;
+    height:0;
+}
+.liveMenu .liveMenuTooltip .content
+{
+    white-space:nowrap;
+    padding: 10px;
+}

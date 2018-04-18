@@ -1,0 +1,264 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\000033}}
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialised; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000313}}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000316}}
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000320}}
+.hidden {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000323}}
+section {
+  padding: 70px 0 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000326}}
+section:nth-child(odd) {
+  background-color: #FAF9F9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000329}}
+section,
+.main_head {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000333}}
+.main_head {
+  min-height: 320px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000336}}
+.loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000346}}
+  .loader .loaderInner {
+    background-image: url("../img/load.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000360}}
+.top_wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000368}}
+  .top_wrapper .top_descr {
+    display: table-row; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000370}}
+    .top_wrapper .top_descr .top_centred {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000374}}
+  .top_wrapper .top_text {
+    display: inline-block;
+    margin: 0px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000377}}
+    .top_wrapper .top_text .fadeInDown {
+      animation-delay: 1.8s;
+      -webkit-animation-delay: 1.8s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000380}}
+    .top_wrapper .top_text h1 {
+      display: inline-block;
+      padding: 10px 30px 0;
+      color: #fff;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 10px black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000386}}
+    .top_wrapper .top_text p {
+      font-weight: 800;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 10px black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000390}}
+    .top_wrapper .top_text hr {
+      padding: 0;
+      margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000393}}
+.main_menu {
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  animation-delay: 2.1s;
+  -webkit-animation-delay: 2.1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\0000399}}
+  .main_menu a {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003105}}
+  .main_menu .menu_item {
+    width: 52px;
+    height: 52px;
+    margin: 0px 5px;
+    border: 2px solid #DDD;
+    box-shadow: 1px 1px 3px #555;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #F0F0F0;
+    border-radius: 30px;
+    display: inline-block;
+    opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003118}}
+.logo_container {
+  float: left;
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003122}}
+svg {
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003128}}
+svg path {
+  fill: #e0e0e0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003131}}
+.btn {
+  background: #368B24;
+  background-image: -webkit-linear-gradient(top, #368B24, #18451C);
+  background-image: -moz-linear-gradient(top, #368B24, #18451C);
+  background-image: -ms-linear-gradient(top, #368B24, #18451C);
+  background-image: -o-linear-gradient(top, #368B24, #18451C);
+  background-image: linear-gradient(to bottom, #368B24, #18451C);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #535353;
+  -webkit-box-shadow: 0px 1px 3px #535353;
+  -moz-box-shadow: 0px 1px 3px #535353;
+  box-shadow: 0px 1px 3px #535353;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 11px;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003151}}
+.btn:hover {
+  background: #4CCB31;
+  background-image: -webkit-linear-gradient(top, #4CCB31, #0A5911);
+  background-image: -moz-linear-gradient(top, #4CCB31, #0A5911);
+  background-image: -ms-linear-gradient(top, #4CCB31, #0A5911);
+  background-image: -o-linear-gradient(top, #4CCB31, #0A5911);
+  background-image: linear-gradient(to bottom, #4CCB31, #0A5911);
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003160}}
+.btn:active {
+  text-shadow: 0px 0px 5px black;
+  border: 2px solid red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003164}}
+.section_header {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003166}}
+  .section_header h2 {
+    text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003169}}
+.block_center {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003172}}
+.social_wrap {
+  float: right;
+  line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003175}}
+  .social_wrap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003179}}
+  .social_wrap li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003184}}
+.descr_wrap {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003186}}
+  .descr_wrap .descr_block {
+    display: inline-block;
+    margin-bottom: 135px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003189}}
+    .descr_wrap .descr_block::after {
+      content: "";
+      width: 150px;
+      height: 1px;
+      position: absolute;
+      left: 50%;
+      margin-left: -75px;
+      margin-top: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003198}}
+.form-group {
+  display: block;
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003201}}
+  .form-group input,
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003207}}
+.main_form {
+  margin: 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003209}}
+  .main_form button {
+    border: none;
+    line-height: 40px;
+    padding: 0 25px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003219}}
+.contacts_icon {
+  font-size: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/main\.sass}line{font-family:\00003222}}
+.main_footer {
+  padding: 20px; }

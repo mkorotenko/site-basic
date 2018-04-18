@@ -1,0 +1,67 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000311}}
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000315}}
+a {
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000318}}
+p {
+  color: #888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000321}}
+.color_element {
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000323}}
+.color_bg {
+  background-color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000325}}
+.color_border {
+  border-color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000328}}
+.main_color_bg {
+  background-color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000331}}
+.top_text {
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000333}}
+  .top_text h1 {
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000335}}
+  .top_text p {
+    color: #FAFAFA; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000338}}
+.descr_block {
+  letter-spacing: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000340}}
+  .descr_block::after {
+    background-color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000344}}
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 1px solid #FF6347; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000347}}
+.form-group button {
+  border-color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000351}}
+.main_form button {
+  color: #ffffff;
+  background-color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000355}}
+.contacts_icon {
+  color: #FF6347; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wordpress-landing-page-lesson-master\/_clean_html\/css\/sass\/skins\/tomato\.sass}line{font-family:\0000358}}
+.bg_dark {
+  background-color: #11150D;
+  color: #888; }
