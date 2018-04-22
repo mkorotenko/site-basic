@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+    <head>
+        <title>pathExample</title>
+        <meta charset='utf-8' />
+        <style type='text/css'>
+            canvas {
+                border: 2px solid black;
+            }
+            .row_cell {
+                margin: 5px;
+                float: left;
+            }
+            .table{
+                display:table;
+                border-spacing:5px;
+            }
+            .row{
+                display:table-row;
+            }
+            .cell{
+                display:table-cell;
+                margin:5px;
+            }
+            table td{
+                max-width: 150px;
+            }
+            table input[type="number"]{
+                color:#666;
+                border:2px solid #ccc;
+                border-radius:5px;
+                width: 100%;
+                text-align: right;
+                box-sizing:border-box;
+            }
+            .twoCol input[type="number"]{
+                width: 45%;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex">
+            <div>
+                <div  style='float:left;margin: 5px;'>
+                    <canvas id='example'>Обновите браузер</canvas>
+                </div>
+                <div  style='float:left;margin: 5px;'>
+                    <div id='cFps'> <b>FPS: 0</b> </div>
+                    <div id='cProcessed'> <b>PROC: 0</b> </div>
+                    <div id='cPerfomance'> <b>PERF: 0</b> </div>
+                    <div id='cBlues'> <b>BLU: 0</b> </div>
+                    <div id='cReds'> <b>RED: 0</b> </div>
+                </div>
+            </div>
+        </div>
+        <div class="table">
+            <div class='row'>
+                <div class='cell'>
+                    <input type="button" value="Run" onclick="(function(node){scene.runing = !scene.runing; node.value = scene.runing? 'Stop':'Run';})(this)">
+                    <input type="button" value="Input" onclick="(function(node){if(!scene.curUnit) return; scene.curUnit.input(); scene.curUnit.update = true;})(this)">
+                </div>
+            </div>
+            <div class='row'>
+                <div class='cell'>
+                    <table>
+                        <!--caption><h2>Table title</h2></caption!-->
+                        <tbody>
+                            <tr>
+                                <th>Gen. speed</th>
+                                <td><input id="genSpeed" type="number"></td>
+                                <th>min\max</th>
+                                <td>
+                                    <div class='twoCol'>
+                                        <input id="genMin" type="number"> : <input id="genMax" type="number"></td>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>health</th>
+                                <td><input id="health" type="number"></td>
+                                <th>min\max</th>
+                                <td>
+                                    <div class='twoCol'>
+                                        <input id="minHealth" type="number"> : <input id="maxHealth" type="number"></td>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Life time</th>
+                                <td><input id="endTime" type="number"></td>
+                                <th>min\max</th>
+                                <td>
+                                    <div class='twoCol'>
+                                        <input id="minLife" type="number"> : <input id="maxLife" type="number"></td>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>strikes</th>
+                                <td><input id="strikes" type="number"></td>
+                                <th>force</th>
+                                <td><input id="force" type="number"></td>
+                            </tr>
+                            <tr>
+                                <th>pace</th>
+                                <td><input id="pace" type="number"></td>
+                                <th>sign</th>
+                                <td><input id="sign" type="number"></td>
+                            </tr>
+                            <!--tr>
+                                <th>_index</th>
+                                <td><input id="_index" type="number"></td>
+                            </tr!-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="field.js"></script>
+        <script type="text/javascript" src="ameba.js"></script>
+        <script type="text/javascript" src="analytics.js"></script>
+        <script type="text/javascript" src="scene.js"></script>
+    </body>
+</html>
