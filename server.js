@@ -8,7 +8,7 @@ const app = express();
 
 app.get('*.*', express.static(DIST_DIR))
 app.get('*', (req, res) => {
-    var stream = send(req, "/index.html", { root: DIST_DIR });
+    var stream = send(req, "/index.html", { root: path.join(DIST_DIR, req.path) });
     stream.pipe(res);
 })
 
