@@ -373,9 +373,45 @@
             scene.selUnit.selected = true;
             scene.selUnit.update = true;
             scene.curUnit = scene.selUnit;
-            scene.curUnit.output();
+            //scene.curUnit.output();
+            outputAmeba(scene.curUnit);
         };
     };
     scene.init();
+
+    var onChange = function () {
+        if (!scene.curUnit)
+            return;
+        inputAmeba(scene.curUnit);
+    };
+
+    var outputAmeba = function (ameba) {
+        var node;
+        for (var propName in ameba) {
+            node = document.getElementById(propName);
+            if (!node) continue;
+            node.value = ameba[propName];
+            node.onchange = onChange;
+        };
+        proc = document.getElementById('fight');
+        proc.value = ameba.fight;
+        var unit = ameba;
+        proc.onchange = function () {
+            if (ameba) {
+                var newFight = eval(`(${proc.value})`);
+                unit.fight = newFight;
+            }
+        }
+    };
+
+    var inputAmeba = function (ameba) {
+        var node;
+        for (var propName in ameba) {
+            node = document.getElementById(propName);
+            if (!node) continue;
+            ameba[propName] = Number(node.value) || 0;
+        };
+        ameba.update = true;
+    };
 
 })();

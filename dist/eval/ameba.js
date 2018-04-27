@@ -237,37 +237,6 @@
         };
     };
 
-    var onChange = function () { if (!scene.curUnit) return; scene.curUnit.input(); };
-
-    amebaClass.prototype.output = function () {
-        var node;
-        for (var propName in this) {
-            node = document.getElementById(propName);
-            if (!node) continue;
-            node.value = this[propName];
-            node.onchange = onChange;
-        };
-        proc = document.getElementById('fight');
-        proc.value = this.fight;
-        var unit = this;
-        proc.onchange = function() {
-            if (this) {
-                var newFight = eval(`(${proc.value})`);
-                unit.fight = newFight;
-            }
-        }
-    };
-
-    amebaClass.prototype.input = function () {
-        var node;
-        for (var propName in this) {
-            node = document.getElementById(propName);
-            if (!node) continue;
-            this[propName] = Number(node.value) || 0;
-        };
-        this.update = true;
-    };
-
     amebaHiveClass = function (max) {
         var freeIndexes = [],
             genomSamples = {},

@@ -1,0 +1,39 @@
+canvas {
+    border: 2px solid black;
+}
+
+.row_cell {
+    margin: 5px;
+    float: left;
+}
+
+.table {
+    display: table;
+    border-spacing: 5px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    margin: 5px;
+}
+
+table td {
+    max-width: 150px;
+}
+
+table input[type="number"] {
+    color: #666;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.twoCol input[type="number"] {
+    width: 45%;
+}
