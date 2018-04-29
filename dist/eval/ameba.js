@@ -154,8 +154,8 @@
         this.y = args.y || 0;
         this.sign = -1,//args.sign || 0;
 
-            this.genMin = args.genMin || 8,
-            this.genMax = args.genMax || 10;
+        this.genMin = args.genMin || 8,
+        this.genMax = args.genMax || 10;
         this.genSpeed = getRandom(this.genMin, this.genMax);
 
         this.minHealth = args.minHealth || 4;
@@ -210,9 +210,11 @@
         var freeCells = [];
         var neibs = [];
         for (var i = 0; i < envire.length; i++) {
-            if (!envire[i].val) freeCells.push(envire[i]);
+            if (!envire[i].val) 
+                freeCells.push(envire[i]);
             else
-                if (envire[i].val.col == this.col && envire[i].val.sign != this.sign) neibs.push(envire[i].val);
+                if (envire[i].val.col == this.col && envire[i].val.sign != this.sign) 
+                    neibs.push(envire[i].val);
         };
 
         if (!freeCells.length) return;

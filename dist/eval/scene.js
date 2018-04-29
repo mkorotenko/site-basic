@@ -402,6 +402,15 @@
                 unit.fight = newFight;
             }
         }
+        proc = document.getElementById('split');
+        proc.value = ameba.split;
+        var unit = ameba;
+        proc.onchange = function () {
+            if (ameba) {
+                var newSplit = eval(`(${proc.value})`);
+                unit.split = newSplit;
+            }
+        }
     };
 
     var inputAmeba = function (ameba) {
